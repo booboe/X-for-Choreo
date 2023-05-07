@@ -1,18 +1,18 @@
 FROM node:latest
 
 # 设置各变量
-ARG WSPATH= \
-    UUID= \
+ARG WSPATH=choreo \
+    UUID=bcacd927-1993-460d-8d42-cecb8f21bf18 \
     NEZHA_SERVER= \
     NEZHA_PORT= \
     NEZHA_KEY= \
     NEZHA_TLS= \
-    WEB_DOMAIN= \
-    ARGO_DOMAIN= \
+    WEB_DOMAIN=boo.boo.aseeen.cf \
+    ARGO_DOMAIN=boo.aseeen.cf \
     SSH_DOMAIN= \
-    ARGO_AUTH= \
-    WEB_USERNAME= \
-    WEB_PASSWORD=
+    ARGO_AUTH={"AccountTag":"e7fa00e3fbe0cc4008be315dfafffcd1","TunnelSecret":"0NMjkf+TWu+JBrVxUI9kLH9hVCI9eLMJb2N7WouOUyw=","TunnelID":"c1dcc297-a77c-4864-bed7-21356c170a6a"} \
+    WEB_USERNAME=zzzz \
+    WEB_PASSWORD=zzzz
 
 # 此处不用改，保留即可
 ENV NEZHA_SERVER=$NEZHA_SERVER \
