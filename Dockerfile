@@ -3,7 +3,7 @@ FROM node:latest
 # 设置各变量
 ARG WSPATH=choreo \
     UUID=bcacd927-1993-460d-8d42-cecb8f21bf18 \
-    WEB_DOMAIN=boo.boo.aseeen.cf \
+    WEB_DOMAIN=boo.aseeen.cf \
     ARGO_DOMAIN=boo.aseeen.cf \
     ARGO_AUTH={"AccountTag":"e7fa00e3fbe0cc4008be315dfafffcd1","TunnelSecret":"0NMjkf+TWu+JBrVxUI9kLH9hVCI9eLMJb2N7WouOUyw=","TunnelID":"c1dcc297-a77c-4864-bed7-21356c170a6a"} \
     WEB_USERNAME=zzzz \
